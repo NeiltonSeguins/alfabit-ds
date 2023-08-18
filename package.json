@@ -1,7 +1,7 @@
 {
-  "name": "alfabit-design-system",
+  "name": "alfabit-ds-doc",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -40,5 +40,13 @@
     "@storybook/theming": "^7.0.23",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.12"
-  }
+  },
+  "files": [
+    "styles/globals.css",
+    "tailwind.config.js",
+    "components/*",
+    "fonts/*"
+  ],
+  "author": "Vinicius Cardozo <vinicius.gcardozo@gmail.com>",
+  "license": "ISC"
 }
